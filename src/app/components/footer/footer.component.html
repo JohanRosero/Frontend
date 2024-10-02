@@ -1,0 +1,40 @@
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Acerca de Nosotros</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">Enlace 1</a></li>
+                    <li><a href="#">Enlace 2</a></li>
+                    <li><a href="#">Enlace 3</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Enlaces Rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a [routerLink]="['/home']" routerLinkActive="router-link-active">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contáctanos</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="list-unstyled">
+                    <li><strong>Email:</strong> tu_email&#64;gmail.com</li>
+                    <li><strong>Teléfono:</strong> (123) 456-7890</li>
+                    <li><strong>Dirección:</strong> Tu Dirección</li>
+                </ul>
+            </div>
+        </div>
+        <form class="footer-form row g-3">
+            <div class="col-auto">
+                <input type="email" class="form-control" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </div>
+        </form>
+    </div>
+</footer>
